@@ -9,6 +9,7 @@ class Mango {
         this.body = Bodies.cricle(x, y, radius, options);
         this.radius = radius;
         this.image = loadImage("images/mango.png");
+        World.add(world, this.body);
     }
 
     display() {
